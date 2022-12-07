@@ -16,6 +16,7 @@ function routeToController($uri, $routes){
 }
 
 routeToController($uri, $routes);
+
 function abort($code = 404){
     http_response_code($code);
     echo "Sorry. Not Found";
