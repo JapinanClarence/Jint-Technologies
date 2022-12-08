@@ -1,5 +1,5 @@
 <?php 
-include "includes/header.php";
+include "partials/header.php";
 
 include "partials/banner.php";
 ?>
@@ -13,5 +13,5 @@ include "partials/banner.php";
 
 </main>
 <?php
-include "includes/footer.php";
+include "partials/footer.php";
 ?>
