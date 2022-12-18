@@ -38,7 +38,7 @@
         <div class="main__nav">
             <div class="container">
                 <div class="main__nav-wrapper">
-                    <img src="../assets/images/jint-tech-logo.png" alt="Jint Technologies Logo" class="main__nav-logo">
+                    <img src="../assets/images/Jint Web Logo.png" alt="Jint Technologies Logo" class="main__nav-logo">
 
                     <!-- Search Bar -->
                     <div class="main__nav-search-bar">
