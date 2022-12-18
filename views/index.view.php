@@ -1,17 +1,13 @@
-<?php 
+<?php
 include "partials/header.php";
 
-include "partials/banner.php";
+// ako sa gi comment kay di matanggal tong page title
+// include "partials/banner.php";
 ?>
 <main>
-    <div>
-        Card
-        <div>
-            
-        </div>
-    </div>
 
 </main>
+
 <?php
 include "partials/footer.php";
 ?>

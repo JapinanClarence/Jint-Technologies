@@ -1,5 +1,5 @@
 <?php
 
 
-$heading = 'Home';
+// $heading = 'Home';
 include "views/index.view.php";
