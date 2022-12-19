@@ -8,9 +8,8 @@
 :root {
     --main-color: #131921;
     --secondary-color: #232F3E;
-    --light: 300;
-    --regular: 400;
-    --bold: 700;
+    --accent-color: #2C3333;
+    --accent-color-light: #395B64;
 }
 
 html {
@@ -23,7 +22,10 @@ html {
     padding: 0;
     box-sizing: border-box;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
 /* Reusable Classes */
 .container {
     padding-right: 15px;
@@ -295,34 +297,52 @@ input[type=text] {
 }
 
 /* login page */
-.login-page .section{
-    background-color: pink;
-    padding: 100px;
+
+.login-page{
+    margin-top: 80px;
+    justify-content: space-between;
+}
+.login-page p{
+    font-size: 50px;
+    font-weight: 700;
+    margin-block: auto;
+}
+.motto-container{
+    display: flex;
+    justify-content: center;
+    width: 500px;
 }
 .login-page form{
     flex-direction: column;
-    background: var(--secondary-color);
+    background: var(--accent-color);
     border-radius: 5px;
-    height: 410px;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 300;
     color: white;
-    align-items: center;
-    justify-content: center;
-
+    padding: 50px;
+   
 }
-.login-form label{
+form label{
     display: block;
     margin-bottom: 15px;
 }
+
 .form-input{
     width: 100%;
     background-color: white;
     border: none;
     border-radius: 20px;
-    height: 30px;
+    height: 40px;
+    margin-bottom: 10px;
 }
 .form-btn{
-    padding: 15px 30px;
-    border-radius: 15px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-weight: 700;
+    width: fit-content;
+    margin-block: 40px 20px;
+    margin-inline: auto;
+}
+span{
+    text-align: center;
 }
