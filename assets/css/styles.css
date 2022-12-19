@@ -89,6 +89,10 @@ html {
     text-align: center;
 }
 
+.hidden{
+    display: none;
+}
+
 /* Reusable Classes */
 
 
@@ -177,6 +181,7 @@ input[type=text] {
 }
 
 .cart {
+    cursor: pointer;
     color: #fff;
 }
 
@@ -184,7 +189,7 @@ input[type=text] {
     background-color: #fff;
     color: #666666;
     position: absolute;
-    transform: translate(-93%, 3%);
+    transform: translate(-93%, 57%);
     width: 35rem;
     padding: 1rem 1rem;
     box-shadow: 0 0 10px 5px #0000002c;
@@ -195,6 +200,12 @@ input[type=text] {
     gap: 5px;
     padding: 2rem .5rem;
     border-bottom: 1px solid #dadada;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.cart-item:hover{
+    background-color: #f3f3f3;
 }
 
 .cart-item-image {
