@@ -17,19 +17,19 @@
     <header>
         <nav class="top__nav">
             <div class="top__nav-links container">
-                <a href="#" class="top__nav-link">
+                <a href="/services" class="top__nav-link">
                     Services
                 </a>
-                <a href="#" class="top__nav-link">
+                <a href="/products" class="top__nav-link">
                     Products
                 </a>
-                <a href="#" class="top__nav-link">
+                <a href="/about" class="top__nav-link">
                     About
                 </a>
-                <a href="#" class="top__nav-link">
+                <a href="/login" class="top__nav-link">
                     Login
                 </a>
-                <a href="#" class="top__nav-link">
+                <a href="/signup" class="top__nav-link">
                     Signup
                 </a>
             </div>
