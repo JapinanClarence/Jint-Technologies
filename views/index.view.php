@@ -6,11 +6,11 @@ include "partials/header.php";
 <div class="container">
     <div class="hero__section">
         <div class="hero__section-main-slider">
-            <img src="../assets/images/hero-banner.png" alt="">
+            <img src="../assets/images/hero-banner.png" class="hero-img" alt="">
         </div>
         <div class="hero__section-banners">
-            <img src="../assets/images/Banner-2.png" alt="">
-            <img src="../assets/images/Banner-2.png" alt="">
+            <img src="../assets/images/Banner-2.png" class="hero-img" alt="">
+            <img src="../assets/images/Banner-2.png" class="hero-img" alt="">
         </div>
     </div>
 
