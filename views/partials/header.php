@@ -16,6 +16,7 @@
 
 <body>
     <header>
+        <!-- Top Nav -->
         <nav class="top__nav">
             <div class="top__nav-links container">
                 <a href="/services" class="top__nav-link">
@@ -35,11 +36,16 @@
                 </a>
             </div>
         </nav>
+        <!-- Top Nav -->
 
+        <!-- Main Nav -->
         <div class="main__nav">
             <div class="container">
                 <div class="main__nav-wrapper">
-                    <img src="../assets/images/Jint Web Logo.png" alt="Jint Technologies Logo" class="main__nav-logo">
+                    <a href="/">
+                        <img src="../assets/images/Jint Web Logo.png" alt="Jint Technologies Logo"
+                            class="main__nav-logo">
+                    </a>
 
                     <!-- Search Bar -->
                     <div class="main__nav-search-bar">
@@ -127,4 +133,6 @@
 
             </div>
         </div>
+        <!-- Main Nav -->
+
     </header>
