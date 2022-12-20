@@ -8,7 +8,8 @@ $routes = [
     '/products' => 'controllers/products.php',
     '/about' => 'controllers/about.php',
     '/login' => 'controllers/login.php',
-    '/signup' => 'controllers/signup.php'
+    '/signup' => 'controllers/signup.php',
+    '/cart' => 'controllers/cart.php'
 ];
 
 function routeToController($uri, $routes){

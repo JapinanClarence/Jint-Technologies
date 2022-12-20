@@ -14,6 +14,7 @@
 
 html {
     font-size: 10px;
+    background-color:#f3f3f3 ;
 }
 
 * {
@@ -24,7 +25,7 @@ html {
 }
 a{
     text-decoration: none;
-    color: white;
+    /* color: white; */
 }
 /* Reusable Classes */
 .container {
@@ -84,6 +85,13 @@ a{
     display: flex;
 }
 
+.align-center {
+    align-items: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
 .values-badge {
     position: absolute;
     margin: -.1rem 0 0 -.7rem;
@@ -100,6 +108,15 @@ a{
 .light-accent{
     background-color: var(--accent-color-light);
     color: white;
+}
+.light-accent-container{
+    background-color: #e4e4e4;
+}
+.dark-accent-container{
+    background-color: #d9d9d9d9;
+}
+.white-container{
+    background-color: #fff;
 }
 
 /* Reusable Classes */
@@ -236,6 +253,9 @@ input[type=text] {
     margin-top: 1rem;
     padding: 1rem 2rem;
 }
+.view-cart-btn a{
+    color: black;
+}
 
 .main__nav-account {
     display: flex;
@@ -281,6 +301,7 @@ input[type=text] {
 }
 
 .partners {
+    padding: 4rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -291,12 +312,59 @@ input[type=text] {
 .partners__images {
     display: flex;
     align-items: center;
-    gap: 20px;  
+    margin-top: 1rem;
+    gap: 4rem;  
 }
 
 .partners-img {
     max-width: 100%;
     max-height: 4.5rem;
+}
+
+
+/* Products Section */
+.products-wrapper .title-bar{
+    justify-content: space-between;
+    padding: 2rem;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #1e1e1e;
+}
+
+.products-wrapper .title-bar a .icon{
+    width: 2rem;
+    height: 2rem;
+}
+
+.products{
+    padding: 1rem;
+    overflow: scroll;
+}
+
+.product-item{
+    max-width: 20rem;
+    padding: .5rem;
+    /* align-items: center; */
+}
+
+.product-item img{
+    max-width: 20rem;
+}
+
+.product-item-title{
+    font-size: 1.4rem;
+    line-height: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-left: .5rem;
+}
+
+.product-item-price{
+    font-size: 1.3rem;
+    color: #ff6600;
+    margin-top: 1rem;
+    margin-left: .5rem;
+
 }
 
 /* login page */
@@ -347,7 +415,7 @@ form label{
     margin-inline: auto;
 }
 span{
-    text-align: center;
+    /* text-align: center; */
 }
 /* About page */
 .about-container{
@@ -380,3 +448,5 @@ span{
     padding: 80px;
     width: 900px;
 }
+
+

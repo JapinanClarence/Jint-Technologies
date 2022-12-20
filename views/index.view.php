@@ -26,10 +26,117 @@ include "partials/header.php";
         </div>
     </div>
 
-    <div class="products-wrapper">
-        <div class="title-bar"></div>
-        <div class="products">
-            
+    <div class="products-wrapper white-container">
+        <div class="title-bar flex">
+            <span>
+                New Products
+            </span>
+            <a href="/products" class="flex align-center">See More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                </svg>
+            </a>
+        </div>
+        <div class="products flex">
+            <a href="/cart">
+            <div class="product-item flex flex-column">
+                <img src="../assets/images/products/sample-product.png" class="product-item-img" alt="">
+                <span class="product-item-title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                </span>
+                <span class="product-item-price">
+                    P6,350.00
+                </span>
+            </div>
+            </a>
+            <a href="/cart">
+            <div class="product-item flex flex-column">
+                <img src="../assets/images/products/sample-product.png" class="product-item-img" alt="">
+                <span class="product-item-title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                </span>
+                <span class="product-item-price">
+                    P6,350.00
+                </span>
+            </div>
+            </a>
+            <a href="/cart">
+            <div class="product-item flex flex-column">
+                <img src="../assets/images/products/sample-product.png" class="product-item-img" alt="">
+                <span class="product-item-title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                </span>
+                <span class="product-item-price">
+                    P6,350.00
+                </span>
+            </div>
+            </a>
+            <a href="/cart">
+            <div class="product-item flex flex-column">
+                <img src="../assets/images/products/sample-product.png" class="product-item-img" alt="">
+                <span class="product-item-title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                </span>
+                <span class="product-item-price">
+                    P6,350.00
+                </span>
+            </div>
+            </a>
+            <a href="/cart">
+            <div class="product-item flex flex-column">
+                <img src="../assets/images/products/sample-product.png" class="product-item-img" alt="">
+                <span class="product-item-title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                </span>
+                <span class="product-item-price">
+                    P6,350.00
+                </span>
+            </div>
+            </a>
+            <a href="/cart">
+            <div class="product-item flex flex-column">
+                <img src="../assets/images/products/sample-product.png" class="product-item-img" alt="">
+                <span class="product-item-title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                </span>
+                <span class="product-item-price">
+                    P6,350.00
+                </span>
+            </div>
+            </a>
+            <a href="/cart">
+            <div class="product-item flex flex-column">
+                <img src="../assets/images/products/sample-product.png" class="product-item-img" alt="">
+                <span class="product-item-title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                </span>
+                <span class="product-item-price">
+                    P6,350.00
+                </span>
+            </div>
+            </a>
+            <a href="/cart">
+            <div class="product-item flex flex-column">
+                <img src="../assets/images/products/sample-product.png" class="product-item-img" alt="">
+                <span class="product-item-title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                </span>
+                <span class="product-item-price">
+                    P6,350.00
+                </span>
+            </div>
+            </a>
+            <a href="/cart">
+            <div class="product-item flex flex-column">
+                <img src="../assets/images/products/sample-product.png" class="product-item-img" alt="">
+                <span class="product-item-title">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                </span>
+                <span class="product-item-price">
+                    P6,350.00
+                </span>
+            </div>
+            </a>
+
         </div>
     </div>
 

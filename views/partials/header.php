@@ -113,7 +113,7 @@
                                 </span>
                                 <span class="cart-item-price">₱6,350.00</span>
                             </div>
-                            <button class="btn view-cart-btn">View My Shopping Cart</button>
+                            <button class="btn view-cart-btn"><a href="/cart">View My Shopping Cart</a></button>
                         </div>
 
 
