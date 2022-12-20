@@ -11,7 +11,7 @@ include "partials/header.php";
         </p>
     </div>
     <div class="">
-        <form class="flex " action="" method="GET">
+        <form class="flex rounded-corner" action="" method="GET">
         
                 <label for="username">Username</label>
                 <input class="form-input" type="text">
@@ -22,7 +22,7 @@ include "partials/header.php";
                 <button class="btn form-btn" type="submit">
                     Login
                 </button>
-                <span> or <a href="/signup">Sign up</a></span>
+                <span class="align-center"> or <a href="/signup">Sign up</a></span>
    
         </form>
     
