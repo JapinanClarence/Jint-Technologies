@@ -3,7 +3,7 @@ include "partials/header.php";
 // include "partials/banner.php";
 // ?>
 
-<div class="flex container login-page">
+<div class="flex align-center login-page">
     
     <div class="motto-container">
         <p>
@@ -24,7 +24,7 @@ include "partials/header.php";
                 <button class="btn form-btn" type="submit">
                     Sign up
                 </button>
-                <span class="align-center"> Already have an account? <a href="/login">Login</a></span>
+                <span class="text-align"> Already have an account? <a href="/login">Login</a></span>
    
         </form>
     

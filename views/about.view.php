@@ -15,7 +15,7 @@ include "partials/header.php";
         </h2>
         <span>Students, Business Owners, and Computer enthusiast</span>
     </section>
-    <section class="light-accent bottom-container">
+    <section class=" bottom-container">
         <p>Jint.Tech, offers you the best services you ever need.</p>
     </section>
 </div>
