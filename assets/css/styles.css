@@ -85,7 +85,9 @@ a {
 .flex {
   display: flex;
 }
-
+.grid {
+  display: grid;
+}
 .align-center {
   align-items: center;
   justify-content: center;
@@ -548,4 +550,109 @@ form label {
 }
 .send-icon {
   stroke: #fff;
+}
+/* Cart page */
+.cart-page {
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+.cart-checkout {
+  grid-template-rows: 40px 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: lightgoldenrodyellow;
+}
+
+.check-out-container {
+  flex-direction: column;
+  padding: 20px;
+  width: 350px;
+  justify-content: space-between;
+}
+.check-out-container div + div {
+  margin-top: 20px;
+}
+.checkout-label {
+  font-weight: 700;
+  display: block;
+  margin-bottom: 10px;
+}
+.checkout-input {
+  background-color: #fff;
+}
+.payment-container {
+  margin-bottom: 20px;
+}
+.payment-container div {
+  column-gap: 150px;
+  align-items: center;
+}
+.payment-label {
+  width: 90px;
+  color: #6b6b6bd9;
+}
+.checkout-btn {
+  background-color: var(--accent-color-light);
+  padding: 10px;
+  width: fit-content;
+  color: white;
+  margin-left: auto;
+  margin-right: 0px;
+}
+/* Product page */
+.products-section {
+  margin-top: 40px;
+  flex-direction: column;
+  row-gap: 20px;
+  padding-inline: 180px;
+}
+.product-header {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.product-page-grid {
+  grid-template-columns: 200px 200px 200px 200px 200px 200px;
+  gap: 3rem;
+  font-size: 13px;
+  align-items: center;
+  justify-content: center;
+}
+.product-card {
+  flex-direction: column;
+}
+.product-card-image {
+  width: 1;
+}
+.product-card-image {
+  height: 100px;
+  width: inherit;
+  object-fit: cover;
+}
+.product-page-description {
+  flex-direction: column;
+  padding: 10px;
+  row-gap: 10px;
+}
+.product-card-title {
+  font-weight: 700;
+  color: black;
+}
+.orig-price {
+  text-decoration: line-through;
+  color: #666666;
+}
+.discount-percent {
+  background-color: red;
+  color: #fff;
+}
+.buy-now-btn {
+  background-color: var(--accent-color-light);
+  padding: 10px;
+  width: fit-content;
+  margin-inline: auto;
+}
+.buy-now-btn a {
+  color: white;
 }

@@ -23,7 +23,7 @@
                 <a href="#" class="top__nav-link">
                     Services
                 </a>
-                <a href="product.html" class="top__nav-link">
+                <a href="#" class="top__nav-link">
                     Products
                 </a>
                 <a href="about.html" class="top__nav-link">
@@ -51,7 +51,7 @@
                     <!-- Search Bar -->
                     <div class="main__nav-search-bar">
                         <form action="" method="get">
-                            <input type="text" name="search-item" class="main__nav-search-field"
+                            <input class="search-input" type="text" name="search-item" class="main__nav-search-field"
                                 placeholder="Search something here...">
                         </form>
 
@@ -138,31 +138,66 @@
 
     </header>
 
-    <div class="flex align-center login-page">
+    <div class="flex container cart-page">
+        <div class="dark-accent-container grid cart-checkout">
+            <div style="background-color: lightblue; border-width: 0 0 1px 0; border-color: black; border-style: solid;">
+                <span>Product</span>
+                
+            </div>
+            <div style="background-color: lightpink; border-width: 0 0 1px 0; border-color: black; border-style: solid;">   
+                <span>Quantity</span>
+            </div>
+            <div style="background-color: lightblue; border-width: 0 0 1px 0; border-color: black; border-style: solid;">
+               
+            </div>
+            <div>
+                <img class="product-image" src="../assets/images/products/sample-product.png">
+            </div>
+            <div>
 
-        <div class="motto-container">
-            <p>
-                Jint.Tech, offers the best services you ever need.
-            </p>
+            </div>
+            <div>
+
+            </div>
         </div>
-        <div class="">
-            <form class="flex rounded-corner" action="" method="GET">
-                <label for="first_name">First name</label>
-                <input class="form-input" type="text">
-                <label for="last_name">Last name</label>
-                <input class="form-input" type="text">
-                <label for="email">Email</label>
-                <input class="form-input" type="email">
-                <label for="password">Password</label>
-                <input class="form-input" type="password">
-
-                <button class="btn form-btn" type="submit">
-                    Sign up
-                </button>
-                <span class="text-align"> Already have an account? <a href="/login">Login</a></span>
-
-            </form>
-
+        <div class="flex light-accent-container check-out-container rounded-corner">
+            <div>
+                <span class="checkout-label">Delivery Address</span>
+                <form action="">
+                    <input class="checkout-input rounded-corner" type="text" placeholder="Enter location">
+                </form>
+            </div>
+            <div class="payment-container">
+                <span class="checkout-label">Payment method</span>
+                <div class="flex">
+                    <span class="">Cash on Delivery</span> <span>CHANGE</span>
+                </div>
+                <div class="flex">
+                    <span class="payment-label">Merchandise Subtotal</span>
+                    <span>
+                        ₱6,350.00
+                    </span>
+                </div>
+                <div class="flex">
+                    <span class="payment-label">
+                        Shipping Total:
+                    </span>
+                    <span>
+                        ₱0
+                    </span>
+                </div>
+                <div class="flex">
+                    <span class="payment-label">
+                        Total Payment:
+                    </span>
+                    <span>
+                        ₱0
+                    </span>
+                </div>
+            </div>
+            <button class="btn checkout-btn rounded-corner">
+                Check out
+            </button>
         </div>
     </div>
 
