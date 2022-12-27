@@ -601,13 +601,13 @@ form label {
   margin-right: 0px;
 }
 /* Product page */
-.products-section {
+.centered-grid {
   margin-top: 40px;
   flex-direction: column;
   row-gap: 20px;
   padding-inline: 180px;
 }
-.product-header {
+.grid-header {
   font-size: 40px;
   font-weight: 700;
 }
@@ -654,5 +654,44 @@ form label {
   margin-inline: auto;
 }
 .buy-now-btn a {
+  color: white;
+}
+/* Services */
+.services-page-grid{
+  grid-template-columns: 280px 280px 280px;
+  row-gap: 3rem;
+  column-gap: 10rem;
+  font-size: 13px;
+  align-items: center;
+  justify-content: center;
+}
+.services-card{
+  height: 350px;
+}
+.services-card-image{
+  width: inherit;
+  object-fit: cover;
+}
+.services-label{
+  display: block;
+  font-weight: 700;
+}
+.services-description{
+  font-size: 15px;
+  padding: 30px;
+  row-gap: 10px;
+}
+.services-pricing-label{
+  display: inline-block;
+  margin-right: 30px;
+}
+.services-price{
+  color: #ff6600;
+}
+.avail-btn{
+  background-color: var(--accent-color-light);
+  padding: 10px;
+  width: fit-content;
+  margin-inline: auto;
   color: white;
 }
