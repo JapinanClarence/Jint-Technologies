@@ -184,7 +184,7 @@ a {
   width: 100%;
 }
 
-input[type="text"] {
+input {
   display: block;
   width: 100%;
   padding: 1rem;
@@ -326,6 +326,7 @@ input[type="text"] {
 }
 
 /* Products Section */
+
 .products-wrapper .title-bar {
   justify-content: space-between;
   padding: 2rem;
@@ -601,6 +602,7 @@ form label {
   margin-right: 0px;
 }
 /* Product page */
+
 .centered-grid {
   margin-top: 40px;
   flex-direction: column;
